@@ -1,0 +1,15 @@
+{
+  "name": "balrog-dryrun",
+  "version": "1.0.0",
+  "description": "Dry run extension for testing the system add-on release process",
+  "license": "MPL-2.0",
+  "private": true,
+  "repository": "https://github.com/mozilla-extensions/balrog-dryrun",
+  "devDependencies": {
+    "web-ext": "^6.1.0"
+  },
+  "scripts": {
+    "build": "web-ext build -s extension --overwrite-dest --filename balrog-dryrun.xpi",
+     "lint": "web-ext lint -s extension"
+  }
+}
