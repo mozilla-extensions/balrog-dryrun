@@ -1,1 +1,1 @@
-console.log("### Balrog dry run add-on executed successfully ###");
+console.log("### Balrog dry run add-on version", browser.runtime.getManifest().version, "executed successfully ###");
