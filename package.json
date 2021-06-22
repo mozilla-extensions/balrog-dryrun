@@ -1,6 +1,6 @@
 {
   "name": "balrog-dryrun",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Dry run extension for testing the system add-on release process",
   "license": "MPL-2.0",
   "private": true,
